@@ -3,9 +3,16 @@ package biblioteka;
 import java.util.LinkedList;
 
 import biblioteka.interfejs.Bibliotekainterfejs;
-
+/**
+ * Biblioteka sa knjigama.
+ * 
+ * @author danko
+ *
+ */
 public class Biblioteka implements Bibliotekainterfejs {
-
+	/**
+	 * dvostruko spregnuta lista sa knjigama
+	 */
 	private LinkedList<Knjiga> knjige = new LinkedList<Knjiga>();
 	
 	@Override
